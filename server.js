@@ -9,6 +9,7 @@ app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static('views/images'));
+//var methodOverride = require('method-override')
 // Set Handlebars.
 const exphbs = require("express-handlebars");
 
