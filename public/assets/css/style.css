@@ -1,5 +1,5 @@
 body {
-  background-color: #f4c242;
+  background-color: #ffef00;
 }
 
 img {
@@ -7,10 +7,6 @@ img {
 }
 
 .red_font {
-  color: #bc001f;
+  color: #db001d;
 }
 
-.tiny_text {
-  font-size: 11px;
-  color: #5da82f;
-}
