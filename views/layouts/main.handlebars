@@ -3,10 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <!-- Tab Title -->
- <title>da Burger!</title>
+ <title>Eat a Burger!</title>
   
   <link rel="icon" href="/assets/img/burger1.jpg">
-  
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
     integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   
@@ -15,23 +14,20 @@
 
 <body>
 
-  <!-- Page Container -->
   <div class="container">
-
     <br>
 
-    <!-- Burger Image -->
+<!--burger image -->
     <center>
       <div class="row">
         <img src="/assets/img/burger1.jpg">
       </div>
     </center>
 
-    <!-- Page Title -->
+<!--title-->
     <center>
-      <h1 class="red_font">Eat da Burger!</h1>
+      <h1 class="Tfont">Eat da Burger!</h1>
     </center>
-
     <br>
 
     <!-- Burger Content from index.handlebars -->
@@ -39,36 +35,29 @@
 
     <br><br>
 
-    <!-- Input New Burgers Form -->
+    <!-- New Burgers Form -->
     <form action="burger/create" method="POST">
 
       <!-- Text Area Input -->
       <div class="row">
-        <!-- Empty Div to help center textarea -->
         <div class="col-md-3"></div>
 
         <!-- Burger Input Box -->
         <div class="form-group col-md-6">
-          <center><label for="new_burger" class="red_font">place your order!</label></center>
-          <textarea class="form-control" columns="8" rows="4" id="new_burger" name="burger_name"></textarea>
+          <center><label for="new_burger" class="Tfont">Order a Burger!</label></center>
+          <textarea class="form-control" columns="3" rows="2" id="new_burger" name="burger_name"></textarea>
         </div>
-
-        <!-- Empty Div to help center textarea -->
         <div class="col-md-3"></div>
       </div>
-
-      <!-- Submit Button -->
+      <!-- Submit-->
       <center>
         <button id="submit-button" type="submit" class="btn btn-danger">Place Order</button>
       </center>
 
     </form>
-
     <br>
-
   </div>
 
-  <!-- Link in jQuery -->
   <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 
 </body>
