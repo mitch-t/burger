@@ -19,7 +19,14 @@ var burger = {
     orm.updateOne(burger_id, function(result){
       callback(result);
     });
+  },
+
+  delete: function(burger_id, callback) {
+    orm.delete(burger_id, function(result) {
+      callback(result);
+    });
   }
 };
+
 
 module.exports = burger;

@@ -32,6 +32,14 @@ router.post('/burger/eat/:id', function (req, res) {
   });
 });
 
+//Delete a burger
+router.delete('/burger/eat/:id', function (req, res) {
+  burger.delete(req.params.id, function() {
+    res.redirect('/index');
+  });
+});
+
+
 module.exports = router;  
   
   
