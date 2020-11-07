@@ -1,7 +1,7 @@
 const express = require("express");
-const PORT = process.env.PORT || 3001;
+var PORT = process.env.PORT || 3000;
 var app = express();
-
+//const path = require("path");
 // Serve static content for the app from the "public" directory in the application directory.
 app.use(express.static("public"));
 
@@ -17,7 +17,7 @@ app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
 //app.get("/", function(req, res) {
-//  res.json(path.join(__dirname, "public/index.html"));
+ //res.json(path.join(__dirname, "public/index.html"));
 //});
 // Import routes and give the server access to them.
 const routes = require("./controllers/burgers_controller");
