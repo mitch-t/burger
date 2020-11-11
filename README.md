@@ -9,6 +9,7 @@
 * [About](#about)
 * [Installation](#installation)
 * [Usage](#usage)
+* [Screenshot](#screenshot)
 * [Tests](#tests)
 * [Contributing](#contributing)
 * [License](#license)
@@ -22,6 +23,9 @@ To install Eat a Buger!, follow these steps: Must have a windows/mac/android mac
 
 ## Using Eat a Buger!
 The app can be accessed by clicking on the heroku link. 
+
+## Screenshot
+![Screenshot (96)](https://user-images.githubusercontent.com/66184450/98765315-c27b7400-2392-11eb-967c-e6fe3edff4d0.png)
 
 ## Contributing:
 
