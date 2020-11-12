@@ -28,7 +28,7 @@ var orm = {
   },
   
   delete: function(burgerID, callback){
-    connection.query("DELETE FROM burgers SET ? WHERE ?", [{devoured: false}, {id: burgerID}], function (err, result) {
+    connection.query("DELETE FROM burgers ? WHERE ?", [{devoured: false}, {id: burgerID}], function (err, result) {
        if (err) {
          throw err;
         }

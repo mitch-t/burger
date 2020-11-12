@@ -31,6 +31,7 @@
         <!-- Dynamically Insert Eaten Burgers Here -->
         {{#each burgers}}
           {{#if this.devoured}}
+          <form action="burger/eat/{{id}}" method="DELETE"></form>
             <div class="input-group">
               <li class="form-control">{{this.id}}. {{this.burger_name}}</li>
               <span class="input-group-btn">
@@ -50,10 +51,15 @@
 // deletes burger
 $(".gone-button").on("click", function(event) {
     var id = $(this).data("id");
+  $.ajax("/burgers/" + id, {
+    type: "DELETE"
+  }).then(
+    function(){
+      console.log (id);
   
         location.reload();
       }
     );
-
+}
 
 </script>
