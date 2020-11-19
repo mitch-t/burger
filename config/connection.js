@@ -1,4 +1,4 @@
-require("dotenv").config();
+//require("dotenv").config();
 var mysql = require("mysql");
 var connection;
 
@@ -15,5 +15,6 @@ else{
   });
 }
 
-// Export the Connection
 module.exports = connection;
+
+

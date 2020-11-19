@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "server.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -24,10 +24,11 @@
     "mysql": "^2.18.1"
   },
   "devDependencies": {
-    "handlebars-helper-css": "^0.1.0"
+    "handlebars-helper-css": "^0.1.0",
+    "cross-env": "^5.2.0"
   },
-"engines": {
+  "engines": {
     "node": "*",
     "npm": "*"
-}
+  }
 }
