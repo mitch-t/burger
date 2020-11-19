@@ -2,6 +2,8 @@ const express = require("express");
 var PORT = process.env.PORT || 3000;
 var app = express();
 var bodyParser = require("body-parser")
+
+require("dotenv").config();
 //const path = require("path");
 // Serve static content for the app from the "public" directory in the application directory.
 app.use(express.static("public"));
