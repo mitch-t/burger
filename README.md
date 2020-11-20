@@ -25,7 +25,7 @@ To install Eat a Buger!, follow these steps: Must have a windows/mac/android mac
 The app can be accessed by clicking on the heroku link:https://shrouded-hollows-61483.herokuapp.com/index
 
 ## Screenshot
-![Screenshot (113)](https://user-images.githubusercontent.com/66184450/99753433-0e1cd480-2a9b-11eb-94ec-7faad2a4cd18.png)
+![Screenshot (114)](https://user-images.githubusercontent.com/66184450/99765561-2d742b80-2ab4-11eb-9b6d-ba9fa7ada0d7.png)
 
 ## Contributing:
 
