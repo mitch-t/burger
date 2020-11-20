@@ -22,7 +22,7 @@ Eat a Buger! - This is a app that uses node express and handlebars. Users add a 
 To install Eat a Buger!, follow these steps: Must have a windows/mac/android machine with the latest version of nodejs installed. Install npm and make sure all dependencys are listed in the package.JSON. This app works in conjuction with mySQL so installing mySQL workbench and server is also necessary.
 
 ## Using Eat a Buger!
-The app can be accessed by clicking on the heroku link. 
+The app can be accessed by clicking on the heroku link:https://shrouded-hollows-61483.herokuapp.com/index
 
 ## Screenshot
 ![Screenshot (96)](https://user-images.githubusercontent.com/66184450/98765315-c27b7400-2392-11eb-967c-e6fe3edff4d0.png)
